@@ -1,11 +1,12 @@
-# React + Vite + Telegram web App
+# Supercharge Your Development Stack: React + Vite + Telegram Web App 🚀
 
-This template provides a minimal setup to get you started with telegram web app 
+Dive into the world of rapid development with this powerful template integrating React, Vite, and Telegram Web App seamlessly.
 
-## Step 1
-Add this script tag in your ```index.html``` file right above the title like this
+## **Step 1: Integration in a Snap!**
 
-``` 
+In your `index.html`, unleash the magic by simply adding this script tag right before the title:
+
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,7 +14,7 @@ Add this script tag in your ```index.html``` file right above the title like thi
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-   " <script src="https://telegram.org/js/telegram-web-app.js"></script>"  👈🏾
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>  🚀
 
     <title>Vite + React</title>
   </head>
@@ -22,7 +23,7 @@ Add this script tag in your ```index.html``` file right above the title like thi
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
-```
+
 
 ## Step 2
 In your App.jsx make sure that you import useEffect and paste this because it wont work without it.
