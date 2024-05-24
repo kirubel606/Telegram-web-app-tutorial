@@ -1,4 +1,4 @@
-# Supercharge Your Development Stack: React + Vite + Telegram Web App 🚀
+# Getting Started with Telegram web app: React + Vite + Telegram Web App 🚀
 
 Dive into the world of rapid development with this powerful template integrating React, Vite, and Telegram Web App seamlessly.
 
@@ -23,20 +23,21 @@ In your `index.html`, unleash the magic by simply adding this script tag right b
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
-
-
+```
 ## Step 2
 In your App.jsx make sure that you import useEffect and paste this because it wont work without it.
-```
+```javascript
   useEffect(() => {
     if (window.Telegram && window.Telegram.WebApp) {
       const tele = window.Telegram.WebApp;
       tele.ready();
     }
-  }, []); 
+  }, []);
 ```
+  Also Go to bot Father and then create a bot and get the API token that it gives you
 
-Also Go to bot Father and then create a bot and get the API token that it gives you
+
+
 
 ## Step 3
 Then install telegraf for your bot using
@@ -44,10 +45,10 @@ Then install telegraf for your bot using
 npm i telegraf
 ```
 
-## Step 4
-Then Add ths code in your bot.js file and then run it using ```node bot.js```
+## Step 4 : Bring Your Bot to Life
+Then Add this code in your bot.js file and then run it using ```node bot.js```
 
-```
+```javascript
 import { Telegraf } from "telegraf";
 
 const TOKEN = "API TOKEN FROM BOT FATHER";
