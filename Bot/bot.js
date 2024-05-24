@@ -1,8 +1,8 @@
 import { Telegraf } from "telegraf";
 
-const TOKEN = "7198955661:AAGSyxQJNB5ryrNJtwgtdmaNVB4obs59tQA";
+const TOKEN = "Your Bot token from botfather ";
 const bot = new Telegraf(TOKEN);
-const web_link = "https://miniwebapptest.netlify.app/";
+const web_link = "https://your_web_app_link.netlify.app/"; //make sure that the link is https
 
 bot.start((ctx) =>
   ctx.reply("Welcome bro ", {
