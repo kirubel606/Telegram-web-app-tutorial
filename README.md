@@ -44,7 +44,25 @@ npm i telegraf
 ```
 
 ## Step 4
+Then Add ths code in your bot.js file and then run it using ```node bot.js```
+
+```
+import { Telegraf } from "telegraf";
+
+const TOKEN = "API TOKEN FROM BOT FATHER";
+const bot = new Telegraf(TOKEN);
+const web_link = "HTTPS LINK";
+
+bot.start((ctx) =>
+  ctx.reply("Welcome bro ", {
+    reply_markup: {
+      keyboard: [[{ text: "web app", web_app: { url: web_link } }]],
+    },
+  })
+);
+bot.launch();
 
 
+```
 
 
